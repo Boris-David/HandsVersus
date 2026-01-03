@@ -53,6 +53,7 @@ struct ContentView: View {
         }
         .disabled(userCurrentPickedFigure.isEmpty)
         .padding()
+        .opacity(userShouldPick ? 0: 1)
         .foregroundStyle(.black)
         .background(.white)
       }
